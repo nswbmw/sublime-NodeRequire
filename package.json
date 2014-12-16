@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.2",
+    "packages": [
+        {
+            "name": "NodeRequire",
+            "description": "A Sublime Text plugin for requiring modules (for: Node.js).",
+            "author": "nswbmw",
+            "homepage": "https://github.com/nswbmw/sublime-NodeRequire",
+            "last_modified": "2014-12-16 16:30:00",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "1.0.0",
+                        "url": "https://nodeload.github.com/nswbmw/sublime-NodeRequire/zip/v1.0.0"
+                    }
+                ]
+            }
+        }
+    ]
+}
