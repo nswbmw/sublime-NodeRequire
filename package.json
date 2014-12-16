@@ -10,8 +10,8 @@
             "platforms": {
                 "*": [
                     {
-                        "version": "1.0.0",
-                        "url": "https://nodeload.github.com/nswbmw/sublime-NodeRequire/zip/v1.0.0"
+                        "version": "1.1.0",
+                        "url": "https://nodeload.github.com/nswbmw/sublime-NodeRequire/zip/v1.1.0"
                     }
                 ]
             }
