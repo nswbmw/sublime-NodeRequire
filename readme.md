@@ -14,7 +14,7 @@ A Sublime Text plugin for requiring modules (for: Node.js).
 
 ### Usage
 
-`Ctrl+Space`
+`Ctrl+Space` or `Alt+/`
 
 ### License
 

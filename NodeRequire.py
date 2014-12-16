@@ -24,6 +24,7 @@ class PathCompletions(sublime_plugin.EventListener):
     return (completion, sublime.INHIBIT_WORD_COMPLETIONS | sublime.INHIBIT_EXPLICIT_COMPLETIONS)
 
 class NodeUtils:
+  @staticmethod
   def run_script(file_path, relative_path):
     node_path = NodeUtils.get_node_path()
     script_path = PLUGIN_FOLDER + "/scripts/run.js"
@@ -31,11 +32,13 @@ class NodeUtils:
     output = NodeUtils.get_output(cmd)
     return eval(output)
 
+  @staticmethod
   def get_node_path():
     platform = sublime.platform()
     node_path = sublime.load_settings(SETTINGS_FILE).get("node_path").get(platform)
     return node_path
 
+  @staticmethod
   def get_output(cmd):
     if int(sublime.version()) < 3000:
       if sublime.platform() != "windows":
